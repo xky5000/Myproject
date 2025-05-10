@@ -1,0 +1,12 @@
+module(..., package.seeall)
+
+local 派发器 = require("公用.派发器")
+local 协议ID = require("公用.协议ID")
+local 消息类 = require("公用.消息类")
+local 实用工具 = require("公用.实用工具")
+local 公共定义 = require("公用.公共定义")
+local 计时器ID = require("公用.计时器ID")
+local 场景管理 = require("公用.场景管理")
+local 广播 = require("公用.广播")
+local 日志 = require("公用.日志")
+local 全局变量 = require("触发器.全局变量")
